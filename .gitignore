@@ -2,3 +2,9 @@ __pycache__/
 
 # Raw result JSON files (regenerable with run_identity_full.py)
 experiment/results/**/*.json
+
+# Embedding experiment outputs (large data files)
+experiment_embedding/output/
+
+# Generated HTML reports
+*.html
